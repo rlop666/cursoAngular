@@ -1,0 +1,14 @@
+
+<form>
+    <label for="idea">Dime tu nombre</label>
+    <input type="text" name="idea" id="idea" [(ngModel)]="idea">
+    <button (click)="idea=''">Borrar</button>
+    <br>
+    <button (click)="anadirIdea()">Añadir</button>
+  </form>
+  <p>Hola {{idea.toUpperCase()}}</p>
+<ul>
+    <li *ngFor="let idea of ideas">
+      {{idea}}
+    </li>
+</ul>
