@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { NoticiaComponent } from './noticia/noticia.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { PadreComponent } from './padre/padre.component';
+import { HijoComponent } from './hijo/hijo.component';
+import { ListaComponent } from './lista/lista.component';
+import { ItemComponent } from './item/item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IdeasComponent,
     NoticiaComponent,
-    FormularioComponent
+    FormularioComponent,
+    PadreComponent,
+    HijoComponent,
+    ListaComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
